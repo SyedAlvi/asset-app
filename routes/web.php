@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\Admin\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('backend.layout.home');
 });
+
+Route::get('create/profile',[EmployeeController:: class,'CreateProfile'])->name('create.profile');
+Route::get('employee/list',[EmployeeController:: class,'employeelist'])->name('employee.list');
+Route::get('create/product',[ProductController:: class,'CreateProduct'])->name('create.product');
+Route::get('product/list',[ProductController:: class,'productlist'])->name('product.list');

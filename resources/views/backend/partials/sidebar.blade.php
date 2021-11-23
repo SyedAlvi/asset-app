@@ -9,51 +9,51 @@
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.html"
                         aria-expanded="false">
                         <i class="far fa-clock" aria-hidden="true"></i>
-                        <span class="hide-menu">Dashboard</span>
+                        <span class="hide-menu">Admin</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.html"
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{route('employee.list')}}"
                         aria-expanded="false">
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <span class="hide-menu">Profile</span>
+                        <span class="hide-menu">Employee </span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="basic-table.html"
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{route('product.list')}}"
                         aria-expanded="false">
                         <i class="fa fa-table" aria-hidden="true"></i>
-                        <span class="hide-menu">Basic Table</span>
+                        <span class="hide-menu">Product</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="fontawesome.html"
                         aria-expanded="false">
                         <i class="fa fa-font" aria-hidden="true"></i>
-                        <span class="hide-menu">Transaction History</span>
+                        <span class="hide-menu">Order</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="map-google.html"
                         aria-expanded="false">
                         <i class="fa fa-globe" aria-hidden="true"></i>
-                        <span class="hide-menu">Employee List</span>
+                        <span class="hide-menu">Transfer History</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="blank.html"
                         aria-expanded="false">
                         <i class="fa fa-columns" aria-hidden="true"></i>
-                        <span class="hide-menu">Product List</span>
+                        <span class="hide-menu">Feedback</span>
                     </a>
                 </li>
-                <li class="sidebar-item">
+                {{-- <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.html"
                         aria-expanded="false">
                         <i class="fa fa-info-circle" aria-hidden="true"></i>
                         <span class="hide-menu">Comments</span>
                     </a>
-                </li>
+                </li> --}}
                 {{-- <li class="text-center p-20 upgrade-btn">
                     <a href="https://www.wrappixel.com/templates/ampleadmin/"
                         class="btn d-grid btn-danger text-white" target="_blank">
