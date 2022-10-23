@@ -53,7 +53,7 @@
                 <li>
                     <a class="profile-pic" href="#">
                         <img src="https://static.vecteezy.com/system/resources/thumbnails/000/550/731/small/user_icon_004.jpg" alt="user-img" width="36"
-                            class="img-circle"><span class="text-white font-medium">Alvi</span></a>
+                            class="img-circle"><span class="text-white font-medium">minu</span></a>
                 </li>
                 <!-- ============================================================== -->
                 <!-- User profile and search -->
